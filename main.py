@@ -20,7 +20,7 @@ async def on_ready():
 
 @client.command()
 async def ola(ctx):
-    await ctx.send(f'olá {ctx.author}, seu arrombado')
+    await ctx.send(f'olá {ctx.author}, meu consagrado.')
 
 @client.command()
 async def dado(ctx, numero):
@@ -30,7 +30,7 @@ async def dado(ctx, numero):
 @client.command()
 async def a(ctx,*,mensagem):
     if mensagem == 'boa noite':
-        await ctx.send('boa noite é o carai')
+        await ctx.send('boa noite minha fera.')
     else:
         await ctx.send('coe paizao, fala baixo')
 
