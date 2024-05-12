@@ -12,7 +12,7 @@ intents.messages = True
 intents.message_content = True
 intents.guilds = True
 
-client = commands.Bot(command_prefix='!!', case_insensitive=True, intents=intents)
+client = commands.Bot(command_prefix='#', case_insensitive=True, intents=intents)
 
 @client.event
 async def on_ready():
