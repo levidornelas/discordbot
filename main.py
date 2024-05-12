@@ -20,7 +20,7 @@ async def on_ready():
 
 @client.command()
 async def ola(ctx):
-    await ctx.send(f'olá {ctx.author}, seu arrombado')
+    await ctx.send(f'olá {ctx.author}, meu consagrado')
 
 @client.command()
 async def dado(ctx, numero):
