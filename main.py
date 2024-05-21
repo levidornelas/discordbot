@@ -3,15 +3,15 @@ from discord.ext import commands
 import random
 
 
-# Defina os intentos que seu bot precisará
+# Intents padrão da biblioteca discord.
 intents = discord.Intents.default()
 
-# Adicione os intentos específicos que seu bot irá utilizar
+# Intents especificados que serão utilizados:
 intents.messages = True
 intents.message_content = True
 intents.guilds = True
 
-# Crie uma instância do bot com os intentos especificados
+#Criação do prefixo do bot
 client = commands.Bot(command_prefix='#', case_insensitive=True, intents=intents)
 
 @client.event
