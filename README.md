@@ -1,6 +1,6 @@
 # Discord Bot
 
-Este é um bot do Discord desenvolvido apenas 4fun. No momento, pode realizar ações básicas, porém outras implementações serão feitas no futuro.
+Este é um bot do Discord desenvolvido apenas 4fun. No momento, é capaz apenas de retornar comandos básicos, porém outras implementações serão feitas no futuro.
 ## Funcionalidades
 
 - **Gerador de Números Aleatórios:** Gera números aleatórios dentro de um intervalo especificado.
