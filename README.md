@@ -1,7 +1,6 @@
 # Discord Bot
 
-Este é um bot do Discord desenvolvido para entretenimento e diversão. Ele é capaz de realizar várias ações, incluindo gerar números aleatórios, exibir informações sobre as músicas mais populares da Billboard e compartilhar curiosidades biológicas. Atualmente, está em fase de desenvolvimento e mais funcionalidades estão por vir.
-
+Este é um bot do Discord desenvolvido apenas 4fun. No momento, pode realizar ações básicas, porém outras implementações serão feitas no futuro.
 ## Funcionalidades
 
 - **Gerador de Números Aleatórios:** Gera números aleatórios dentro de um intervalo especificado.
