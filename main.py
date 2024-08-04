@@ -43,7 +43,7 @@ async def snoopy(ctx, *, mensagem: str):
     elif mensagem == 'bom dia'.lower().strip():
         await ctx.send('buenos dias muchacho')
 
-    elif mensagem == 'feliz dia'.lower().strip:
+    elif mensagem == 'feliz dia'.lower().strip():
         await ctx.send('feliz dia das mães para todos os pombos e suas mães')
     
     elif mensagem == 'fala comigo'.lower().strip():
