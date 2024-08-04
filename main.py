@@ -102,5 +102,5 @@ async def billboard_top(ctx, numero: str):
         await ctx.send(f' {i + 1} - {song.title} - {song.artist}')
 
 #Token:
-TOKEN = 'MTIzOTAzNTIzMTc5Mzg0MDI0MQ.GOp8O_.7QV5JwOBG_MmD8bKpghkI41ykXl6hYg32b7-2I'
+TOKEN = '' #TOKEN vazio por segurança.
 client.run(TOKEN)
