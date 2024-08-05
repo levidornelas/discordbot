@@ -70,7 +70,6 @@ async def bio(ctx):
 
     await ctx.send(f'{ctx.author}, você sabia que {random.choice(curiosidades)}?')
 
-# Definição do comando assíncrono
 @client.command()
 async def billboard(ctx, numero: int):
     # Obter os dados do Billboard Hot 100: biblioteca 'billboard.py'
